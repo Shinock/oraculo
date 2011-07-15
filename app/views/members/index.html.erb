@@ -1,0 +1,20 @@
+<h1>Members</h1>
+<table>
+
+<tr>
+	<td></td>
+	<td><h3>User</h3></td>
+	<td class="count"><h3>Questions</h3></td>
+	<td class="count"><h3>Answers</h3></td>
+	<td class="status"><h3>Status</h3></td>
+</tr>
+<%@members.each do |member|%>
+	<tr>
+		<td><%= image_tag "avatar.png" %></td>
+		<td class="member"><%= member.name %></td>
+		<td class="count"><%= member.questions.count %></td>
+		<td class="count"><%= member.answers.count %></td>
+		<td class="status"></td>
+	</tr>
+<% end %>
+</table>

@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+td{
+	vertical-align: middle;
+	padding: 2px;
+}
 /* structure */
 
 #wrapper {
@@ -379,4 +383,18 @@ div.messages, div.message {
 div.message h4 a, div.message h4 {
   color: black;
   font-size: 22px;
+}
+
+.count{
+	text-align: center;
+	width:15%;
+}
+
+.status{
+	text-align: center;
+	width:25%
+}
+
+.member{
+	width:45%;
 }
